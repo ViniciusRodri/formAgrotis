@@ -9,15 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/lab": "^5.0.0-alpha.170",
+    "@mui/material": "^5.15.15",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "@mui/x-date-pickers": "^7.2.0",
+    "axios": "^1.6.8",
+    "dayjs": "^1.11.10",
+    "luxon": "^3.4.4",
     "next": "14.2.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.51.3",
+    "styled-components": "^6.1.8"
   },
   "devDependencies": {
+    "@types/luxon": "^3.4.2",
     "@types/node": "20.12.7",
     "@types/react": "18.2.78",
     "@types/react-dom": "18.2.25",
-    "eslint": "9.0.0",
+    "@typescript-eslint/parser": "^5.4.2",
+    "eslint": "^8.0.0",
     "eslint-config-next": "14.2.1",
     "typescript": "5.4.5"
   }
